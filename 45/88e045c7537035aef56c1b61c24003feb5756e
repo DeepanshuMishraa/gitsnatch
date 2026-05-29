@@ -1,0 +1,26 @@
+scripts/build.ts
+  s_727ee5507434d5::t_123f7a678100eb 2
+LICENSE
+  s_727ee5507434d5::t_2f5feec65144b5 1-21
+package.json
+  s_727ee5507434d5::t_2f03ad286784f8 2-3
+  s_727ee5507434d5::t_f92b752b68878f 12-14
+README.md
+  s_727ee5507434d5::t_a8cfc5faac9db2 1,3-11,15,18-28,31,34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4588e045c7537035aef56c1b61c24003feb5756e",
+  "prompts": {},
+  "sessions": {
+    "s_727ee5507434d5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_18b3cc9fcffeXSF6eOuIPnSzKB",
+        "model": "deepseek-v4-flash-free"
+      },
+      "human_author": "Deepanshu Mishra <d4deepanshu723@gmail.com>"
+    }
+  }
+}
