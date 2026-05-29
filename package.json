@@ -2,7 +2,7 @@
 	"author": "Deepanshu Mishra",
 	"license": "MIT",
 	"name": "gitsnatch",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"module": "src/index.tsx",
 	"type": "module",
 	"bin": {

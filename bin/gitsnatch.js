@@ -1,4 +1,4 @@
-!/usr/bin/env bun
+#!/usr/bin/env bun
 
 const sourceEntry = new URL("../src/index.tsx", import.meta.url)
 
