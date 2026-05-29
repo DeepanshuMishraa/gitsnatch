@@ -1,5 +1,7 @@
 # gitsnatch
 
+![gitsnatch](gitsnatch.png)
+
 Browse and download files from any git repo without cloning the whole thing. Built with OpenTUI.
 
 ## Install

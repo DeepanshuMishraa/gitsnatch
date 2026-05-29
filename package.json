@@ -12,7 +12,8 @@
 		"bin",
 		"dist",
 		"LICENSE",
-		"README.md"
+		"README.md",
+		"gitsnatch.png"
 	],
 	"scripts": {
 		"dev": "bun run --watch src/index.tsx",
