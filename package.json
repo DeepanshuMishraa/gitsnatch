@@ -1,23 +1,38 @@
 {
-  "name": "gitsnatch",
-  "module": "src/index.tsx",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "dev": "bun run --watch src/index.tsx"
-  },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "@opentui-ui/toast": "^0.0.5",
-    "@opentui/core": "^0.3.0",
-    "@opentui/react": "^0.3.0",
-    "opentui-spinner": "^0.0.6",
-    "react": "^19.2.6",
-    "zod": "^4.4.3"
-  }
+	"author": "Deepanshu Mishra",
+	"license": "MIT",
+	"name": "gitsnatch",
+	"module": "src/index.tsx",
+	"type": "module",
+	"bin": {
+		"gitsnatch": "bin/gitsnatch.js"
+	},
+	"files": [
+		"bin",
+		"dist",
+		"LICENSE",
+		"README.md"
+	],
+	"scripts": {
+		"dev": "bun run --watch src/index.tsx",
+		"build": "rm -rf dist && bun run scripts/build.ts",
+		"prepublishOnly": "bun run build"
+	},
+	"engines": {
+		"bun": ">=1.0.0"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"@opentui-ui/toast": "^0.0.5",
+		"@opentui/core": "^0.3.0",
+		"@opentui/react": "^0.3.0",
+		"opentui-spinner": "^0.0.6",
+		"react": "^19.2.6",
+		"zod": "^4.4.3"
+	}
 }
