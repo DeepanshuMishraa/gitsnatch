@@ -1,0 +1,21 @@
+bin/gitsnatch.js
+  s_727ee5507434d5::t_bb9ee6cd66453f 1
+package.json
+  s_727ee5507434d5::t_d45c451ac4dfb4 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b0cae44c7f106583435bde13d9a70846f1083af5",
+  "prompts": {},
+  "sessions": {
+    "s_727ee5507434d5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_18b3cc9fcffeXSF6eOuIPnSzKB",
+        "model": "deepseek-v4-flash-free"
+      },
+      "human_author": "Deepanshu Mishra <d4deepanshu723@gmail.com>"
+    }
+  }
+}
