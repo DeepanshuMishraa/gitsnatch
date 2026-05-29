@@ -2,7 +2,7 @@
 	"author": "Deepanshu Mishra",
 	"license": "MIT",
 	"name": "gitsnatch",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"module": "src/index.tsx",
 	"type": "module",
 	"bin": {
@@ -30,8 +30,8 @@
 	},
 	"dependencies": {
 		"@opentui-ui/toast": "^0.0.5",
-		"@opentui/core": "^0.3.0",
-		"@opentui/react": "^0.3.0",
+		"@opentui/core": "0.1.103",
+		"@opentui/react": "0.1.103",
 		"opentui-spinner": "^0.0.6",
 		"react": "^19.2.6",
 		"zod": "^4.4.3"
